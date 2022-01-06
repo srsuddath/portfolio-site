@@ -1,0 +1,41 @@
+#root,
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  flex-grow: 1;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #0ddaf5; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #0ddaf5 1%,
+    #2958f5 100%
+  ); /*FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #0ddaf5 1%,
+    #2958f5 100%
+  ); /*Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    -45deg,
+    #0ddaf5 1%,
+    #2958f5 100%
+  ); /*W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+  #0C62C9
+  #23d0fb
+  #1e8eff
+  */
