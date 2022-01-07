@@ -72,7 +72,6 @@ const PortfolioPage = () => (
               className="static-project-image"
               src="../images/project5Image.png"
               alt="project 5"
-              placeholder="blurred"
             />
           </a>
         </div>
@@ -123,7 +122,6 @@ const PortfolioPage = () => (
               className="static-project-image"
               src="../images/project3Image.png"
               alt="project 3"
-              placeholder="blurred"
             />
           </a>
         </div>
@@ -167,7 +165,6 @@ const PortfolioPage = () => (
               className="static-project-image"
               src="../images/project4Image.png"
               alt="project 4"
-              placeholder="blurred"
             />
           </a>
         </div>
@@ -231,7 +228,6 @@ const PortfolioPage = () => (
               className="static-project-image"
               src="../images/project1Image.png"
               alt="project 1"
-              placeholder="blurred"
             />
           </a>
         </div>
@@ -291,7 +287,6 @@ const PortfolioPage = () => (
               className="static-project-image"
               src="../images/project2Image.png"
               alt="project 2"
-              placeholder="blurred"
             />
           </a>
         </div>

@@ -25,7 +25,6 @@ const AboutMePage = () => (
         <StaticImage
           src="../images/profilePic.png"
           alt="My Headshot"
-          placeholder="blurred"
           layout="fixed"
           width={350}
           height={350}
