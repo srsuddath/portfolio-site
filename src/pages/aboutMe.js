@@ -95,7 +95,6 @@ const Wrapper = styled.div`
   }
 
   img {
-    margin-top: 40px;
     -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
@@ -112,6 +111,7 @@ const Wrapper = styled.div`
       flex-direction: column;
       border-radius: 5px;
       margin-bottom: 70px;
+      padding-top: 40px;
       -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
       -moz-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
       box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
@@ -159,6 +159,7 @@ const Wrapper = styled.div`
       -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
       -moz-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
       box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+      padding-top: 40px;
     }
 
     a {
