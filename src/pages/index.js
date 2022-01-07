@@ -280,6 +280,7 @@ const Wrapper = styled.div`
       margin: 0 0 10px;
     }
     .hidden {
+      display: none;
       visibility: hidden;
       opacity: 0;
     }
@@ -296,8 +297,12 @@ const Wrapper = styled.div`
       margin-bottom: 75px;
       max-width: 300px;
       background: #f4f7fb;
+      height: 400px;
+      transition: height ease 0.25s;
+    }
 
-      transition: height ease 0.2s;
+    .business-card.tall {
+      height: 540px;
     }
 
     .internal-links {
@@ -323,6 +328,8 @@ const Wrapper = styled.div`
       width: 100%;
       border-top: 1px solid black;
       padding-top: 10px;
+      opacity: 1;
+      transition: visibility 0.3s ease, opacity 0.3s ease;
     }
     ul {
       display: flex;
@@ -432,7 +439,9 @@ const Wrapper = styled.div`
       margin: 0;
     }
     .hidden {
-      visibility: hidden !important;
+      display: none;
+      visibility: hidden;
+      opacity: 0;
     }
   }
 `

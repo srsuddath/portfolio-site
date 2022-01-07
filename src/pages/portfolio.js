@@ -69,11 +69,10 @@ const PortfolioPage = () => (
             rel="noreferrer noopener"
           >
             <StaticImage
+              className="static-project-image"
               src="../images/project5Image.png"
               alt="project 5"
               placeholder="blurred"
-              layout="fixed"
-              width={480}
             />
           </a>
         </div>
@@ -121,11 +120,10 @@ const PortfolioPage = () => (
             rel="noreferrer noopener"
           >
             <StaticImage
+              className="static-project-image"
               src="../images/project3Image.png"
               alt="project 3"
               placeholder="blurred"
-              layout="fixed"
-              width={480}
             />
           </a>
         </div>
@@ -166,11 +164,10 @@ const PortfolioPage = () => (
             rel="noreferrer noopener"
           >
             <StaticImage
+              className="static-project-image"
               src="../images/project4Image.png"
               alt="project 4"
               placeholder="blurred"
-              layout="fixed"
-              width={480}
             />
           </a>
         </div>
@@ -231,11 +228,10 @@ const PortfolioPage = () => (
             rel="noreferrer noopener"
           >
             <StaticImage
+              className="static-project-image"
               src="../images/project1Image.png"
               alt="project 1"
               placeholder="blurred"
-              layout="fixed"
-              width={480}
             />
           </a>
         </div>
@@ -292,11 +288,10 @@ const PortfolioPage = () => (
             rel="noreferrer noopener"
           >
             <StaticImage
+              className="static-project-image"
               src="../images/project2Image.png"
               alt="project 2"
               placeholder="blurred"
-              layout="fixed"
-              width={480}
             />
           </a>
         </div>
@@ -315,6 +310,11 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   font-size: 16px;
   flex-grow: 1;
+
+  .static-project-image {
+    max-width: 480px;
+    max-height: 480px;
+  }
 
   .menu-bar {
     display: flex;
@@ -414,7 +414,6 @@ const Wrapper = styled.div`
     .project-image {
       display: flex;
       width: 100%;
-      max-height: 100vw;
       align-items: center;
       justify-content: center;
       margin: 0 10px;
@@ -462,9 +461,9 @@ const Wrapper = styled.div`
       background-color: #35c4f4;
       color: white;
       font-size: 0.8rem;
-      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
       border-radius: 2px;
     }
 
@@ -529,7 +528,7 @@ const Wrapper = styled.div`
     .project-image {
       display: flex;
       max-width: 100%;
-      max-height: 100vw;
+      max-height: 100%;
       align-items: center;
       justify-content: center;
       margin: 0 10px;
