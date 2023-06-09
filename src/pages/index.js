@@ -174,6 +174,7 @@ const Wrapper = styled.div`
       border-top: 1px solid black;
       padding-top: 15px;
       opacity: 1;
+      overflow: hidden;
       transition: visibility 0.3s ease, opacity 0.3s ease;
     }
     ul {
